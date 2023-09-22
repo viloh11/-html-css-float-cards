@@ -1,8 +1,14 @@
 /* GENERAL SETTINGS */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bruno+Ace&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ul, ol, span, strong, h1,h2,h3, a , p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
@@ -10,10 +16,23 @@
 }
 
 /* NAVBAR */
-
-
-header{
-    color: #E53170;
-    justify-content: center;
-    align-items: center;
+.container{
+    margin: 0 auto;
+    max-width: 1600px ;
+    width: 100%;
 }
+
+header h2{
+    color: #E53170;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.container p{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
