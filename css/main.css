@@ -30,9 +30,65 @@ header h2{
     font-size: 50px;
 }
 
-.container p{
+header p{
     text-align: center;
     font-weight: 600;
     margin-top: 60px;
+    font-size: large;
 }
 
+header{
+    margin-bottom: 80px;
+}
+
+/* MAIN SECTION */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.card{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+
+.photo-container {
+    width: 30%;
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.col{
+    display: flex;
+    width: calc((100% / 12) * 4 - 40px);
+}
+
+.info-container{
+    background-color: #0F0E17;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+    gap: 20px;
+}
+
+.info-title{
+    font-weight: 800;
+}
+
+.email{
+    color: #0F77CF;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
