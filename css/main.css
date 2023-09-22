@@ -1,0 +1,19 @@
+/* GENERAL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+/* NAVBAR */
+
+
+header{
+    color: #E53170;
+    justify-content: center;
+    align-items: center;
+}
